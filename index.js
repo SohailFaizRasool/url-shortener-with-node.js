@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require('mongoose');
 const indexRouter = require('./routes/index');
 const MONGODB_URI =
- "mongodb+srv://Sohail:Sohail%40786@cluster0.h1rnz3h.mongodb.net/messages?retryWrites=true&w=majority";
+ "mongodb+srv:/***********************?retryWrites=true&w=majority";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
